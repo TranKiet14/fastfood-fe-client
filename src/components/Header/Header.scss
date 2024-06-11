@@ -1,0 +1,91 @@
+.sticky-header {
+  width: 100%;
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 900;
+}
+
+.margin-header {
+  margin-top: 100px;
+}
+
+/* header-content */
+.header-content {
+  display: flex;
+  align-items: "center";
+  justify-content: space-between;
+}
+
+.header-content .logo {
+  width: 10%;
+}
+
+.header-content .logo img {
+  width: 67px;
+}
+
+.top-nav {
+  width: 70%;
+}
+
+.top-nav ul {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav ul li a {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 90%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #142f43;
+}
+
+.top-nav ul li a:hover {
+  color: #ff5b6a;
+  border-bottom: 3px solid #ff5b6a;
+}
+
+.right-content {
+  width: 20%;
+}
+
+.right-content ul {
+  display: flex;
+  height: 100%;
+  margin: 0;
+}
+
+.right-content ul li a {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 90%;
+  color: #142f43;
+}
+
+.right-content .icon-account {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding-top: 9px;
+}
+
+.right-content .icon-account img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,133 @@
+.footer {
+  background-color: #ffeae3;
+  display: flex;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .subscrible-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.footer .subscrible-form h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer .subscrible-form .form-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .subscrible-form .form-group {
+  margin-bottom: 0;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 5px 0 15px;
+}
+
+.footer .subscrible-form .form-control {
+  font-size: 16px;
+  border: none;
+  height: auto;
+  width: 70%;
+}
+
+.footer .subscrible-form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.footer .subscrible-form .btn {
+  width: 30%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff5b6a;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer .footer__right-content {
+  width: 60%;
+}
+
+.footer .footer__right-content .f-menu {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .footer__right-content .item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer__right-content .item h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer .footer__right-content .item ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer .footer__right-content .item ul a {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  display: block;
+  color: #142f43;
+}
+
+.footer .footer__right-content .item .icon-fb{
+  background: url(https://www.lotteria.vn/grs-static/images/icon-fb-2.svg) 0 1px no-repeat;
+  padding-left: 30px
+}
+.footer .footer__right-content .item .icon-ins{
+  background: url(https://www.lotteria.vn/grs-static/images/icon-instagram.svg) 0 1px no-repeat;
+  padding-left: 30px
+}
+.footer .footer__right-content .item .icon-zalo{
+  background: url(https://www.lotteria.vn/grs-static/images/icon-zalo.svg) 0 1px no-repeat;
+  padding-left: 30px
+}
+
+.footer .footer__right-content .item ul a:hover {
+  color: #ff5b6a;
+}
+
+.copy-right {
+  background: #ff9ea2;
+  font-size: 14px;
+  text-align: center;
+  padding: 16px 15px 15px;
+}
+
+.copy-right strong {
+  font-size: 18px;
+  font-weight: bolder;
+}

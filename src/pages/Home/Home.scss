@@ -1,0 +1,312 @@
+.main-image img {
+  max-width: 100%;
+  height: auto;
+}
+/* menu top highlight */
+.top-highlight {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.top-highlight_menu {
+  background: #ffeae3;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.top-highlight_item-1 {
+  width: 25%;
+  position: relative;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-highlight_item-1:hover {
+  background-color: #ff5b6a;
+}
+
+.top-highlight_item-1:hover span {
+  color: #fff;
+}
+
+.top-highlight_item-1::before {
+  content: "";
+  height: 70px;
+  width: 1px;
+  background-color: #d50000;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+  opacity: 0.3;
+}
+
+.top-highlight_item-1 span {
+  background-image: url(https://www.lotteria.vn/grs-static/images/icon-8.svg);
+  background-size: 80px auto;
+  padding-left: 90px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  color: #ff5b6a;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  position: relative;
+  min-height: 75px;
+}
+
+.top-highlight_item-2 {
+  width: 25%;
+  position: relative;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-highlight_item-2:hover {
+  background-color: #ff5b6a;
+}
+
+.top-highlight_item-2:hover span {
+  color: #fff;
+}
+
+.top-highlight_item-2::before {
+  content: "";
+  height: 70px;
+  width: 1px;
+  background-color: #d50000;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+  opacity: 0.3;
+}
+
+.top-highlight_item-2 span {
+  background-image: url(https://www.lotteria.vn/grs-static/images/icon-8.svg);
+  background-size: 80px auto;
+  padding-left: 90px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  color: #ff5b6a;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  position: relative;
+  min-height: 75px;
+}
+
+.top-highlight_item-3 {
+  width: 25%;
+  position: relative;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-highlight_item-3:hover {
+  background-color: #ff5b6a;
+}
+
+.top-highlight_item-3:hover span {
+  color: #fff;
+}
+
+.top-highlight_item-3::before {
+  content: "";
+  height: 70px;
+  width: 1px;
+  background-color: #d50000;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+  opacity: 0.3;
+}
+
+.top-highlight_item-3 span {
+  background-image: url(https://www.lotteria.vn/grs-static/images/icon-8.svg);
+  background-size: 80px auto;
+  padding-left: 90px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  color: #ff5b6a;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  position: relative;
+  height: 75px;
+}
+
+.top-highlight_item-4 {
+  width: 25%;
+  position: relative;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-highlight_item-4:hover {
+  background-color: #ff5b6a;
+}
+
+.top-highlight_item-4:hover span {
+  color: #fff;
+}
+
+.top-highlight_item-4 span {
+  background-image: url(https://www.lotteria.vn/grs-static/images/icon-8.svg);
+  background-size: 80px auto;
+  padding-left: 90px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  color: #ff5b6a;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  position: relative;
+  min-height: 75px;
+}
+
+/* End menu top highlight */
+/* Section */
+.section {
+  margin-bottom: 40px;
+}
+
+.section .head-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.head-title span {
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.head-title span:before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #ff5b6a;
+}
+
+.head-title .view-all {
+  display: block;
+  float: right;
+  color: #ff5b6a;
+  font-weight: 700;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 5px 15px;
+  margin-top: 13px;
+}
+
+.highlight-products .swiper {
+  margin: 0;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 7px;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 0.5 !important;
+  background-color: #ff5b6a !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: #ff5b6a !important;
+}
+
+
+
+.highlight-products_item .addtocart {
+  margin: 0 0.9rem;
+  padding: 15px 0;
+}
+
+.news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.news span {
+  display: block;
+}
+
+.news_item {
+  display: block;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  color: #142f43;
+  width: 23%;
+  margin-right: 22px;
+  margin-bottom: 22px;
+}
+
+.news_item img {
+  border-radius: 10px 10px 0 0;
+}
+
+.news_content {
+  padding: 15px;
+}
+
+.news_item-title {
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.news_date {
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.news_readmore {
+  padding-top: 10px;
+  text-align: center;
+  border-top: 1px solid #ebebeb;
+  font-weight: 700;
+  color: #ff5b6a;
+  font-size: 18px;
+}
+
+/* End section */

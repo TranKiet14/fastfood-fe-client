@@ -1,0 +1,20 @@
+.category {
+  &__img {
+    display: block;
+    margin-bottom: 7px;
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 15px;
+      border: 4px solid transparent;
+      width: 100%;
+    }
+  }
+  &__txt {
+    color: #142f43;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,72 @@
+.highlight-products_item {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.highlight-products_item img {
+  border-radius: 10px 10px 0 0;
+}
+
+.highlight-products_item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0.9rem;
+}
+
+.highlight-products_item-title {
+  color: #142f43;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.highlight-products_item-icon {
+  width: 26px;
+  height: 22px;
+  border: none;
+  background-color: transparent;
+  background-image: url(https://www.lotteria.vn/grs-static/images/icon-save.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+}
+
+.highlight-products_list-food {
+  opacity: 0.7;
+  font-size: 16px;
+  padding: 0 0.9rem;
+  padding-bottom: 15px;
+}
+
+.highlight-products_list-food p {
+  margin: 0;
+}
+
+.highlight-products_info {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  margin: 0 0.9rem;
+}
+
+.highlight-products_info .price {
+  color: #ff5b6a;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  margin: 0 0 5px 0;
+}
+
+.highlight-products_info .discount-f {
+  margin: 0;
+  min-height: 20px;
+}
+
+.highlight-products_info .price-old {
+  color: #6b6c6c;
+  text-decoration: line-through;
+  background: url(https://www.lotteria.vn/grs-static/images/icon-discount.svg)
+    no-repeat;
+  padding-left: 20px;
+}
